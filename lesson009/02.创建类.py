@@ -10,7 +10,7 @@ class Student:      #Student为类名，由一个或多个单词组成，首字�
         self.age=age
 
 
-    def eat(self):
+    def eat(self):          #Python 只是规定，无论是构造方法还是实例方法，最少要包含一个参数，并没有规定该参数的具体名称,默认self
         print('学生在吃饭。。。')
 
     #静态方法
